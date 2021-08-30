@@ -63,8 +63,8 @@ def findUnique(unique_liness,name):
     sendSMS(name)  
 
 def sendSMS(name):
-    Accnt_sid = "AC19fe627ee10d1bb1e0582f9f94ca79d8"
-    Auth_token = "e7677762c5c5c2dfe23f742ae3ebfbb2"
+    Accnt_sid = "********************************" 
+    Auth_token = "*******************************"
     Twilioclient = Client(Accnt_sid,Auth_token)
 
     message = Twilioclient.messages \
